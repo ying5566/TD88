@@ -1,0 +1,126 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0    
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.divider {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+a {
+    text-decoration: none;
+}
+
+.border-hover {
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+}
+
+.border-hover:hover {
+    border-color: var(--bs-info);
+}
+
+/* Intro Section */
+.intro-section p {
+    max-width: 560px;
+}
+
+/* Navbar */
+.navbar {
+    transition: all 0.5s ease-out;
+    background-color: #e9e3e2f6;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--bs-info);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+/* Service */
+.service .icon {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: #f3d862;
+    font-size: 34px;
+    box-shadow: inset 2px 2px 8px rgba(55, 94, 148, 0.3), inset -3px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Footer */
+.btn-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-grid;
+    align-content: center;
+    padding: 0;
+    font-weight: normal;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color: aliceblue;
+}
+
+.contact{
+    backdrop-filter: blur(20px);
+}
+
+.connect{
+    background-color: #633974;
+}
+
+.btn-icon{
+    background-color: #455ede;
+    color: #ffffff;
+}
+
+h1 
+{text-shadow: 0 0 0.2em rgb(255, 166, 0), 0 0 0.2em rgb(255, 196, 0),
+    0 0 0.2em rgb(255, 187, 0)
+}
+
+.btn-brand{
+    background-color: #A91B0D;
+    color: #ffffff;
+}
+
+.section{
+    background-color: #8b180d;
+}
+
+h6 {
+    text-shadow: 0 0 0.2em rgb(255, 238, 0), 0 0 0.2em rgb(255, 238, 0),
+    0 0 0.2em rgb(255, 238, 0)
+}
+h4 {
+    text-shadow: 0 0 0.2em rgb(255, 238, 0), 0 0 0.2em rgb(255, 238, 0),
+    0 0 0.2em rgb(255, 238, 0)
+}
